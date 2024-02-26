@@ -1,0 +1,114 @@
+*{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+}
+
+.container{
+        position: absolute;
+        left: -10;
+        width: 120%;
+        height: 100vh;
+        background: url(img/bg.jpg);
+}
+
+.container #scene .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.container #scene .layer img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login{
+    position: relative;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.202);
+    backdrop-filter: blur(28px);
+    border: 3px solid rgba(255, 255, 255, 0.627);
+    border-radius: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.752) 5px 5px 20px 10px;
+    }
+
+    .login h2{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 550;
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+
+    .login .inputBox{
+        position: relative;
+    }
+
+    .login .inputBox input{
+        position: relative;
+        width: 100%;
+        padding: 15px 20px;
+        outline: none;
+        font-size: 20px;
+        font-weight: 200;
+        color: rgb(255, 255, 255);
+        border-radius: 22px;
+        background-color: rgba(0, 0, 0, 0.179);
+        backdrop-filter: blur(10px);
+        box-shadow: rgba(0, 0, 0, 0.403) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.488) 0px 18px 36px -18px inset;
+        border: 1px solid rgba(255, 255, 255, 0.49);
+    }
+
+    .login .inputBox ::placeholder{
+        font-weight: 300;
+        color: rgb(255, 255, 255)
+        
+
+    }
+
+    .login .inputBox #btn{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0.616);
+        border-radius: 27px;
+        outline: none;
+        background: linear-gradient(0deg, #0000005e, #00000063);
+        cursor: pointer;
+        color: whitesmoke;
+}
+
+.login .group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .group a{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline 0.8px;
+    font-weight: 100;
+}    
