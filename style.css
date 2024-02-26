@@ -22,6 +22,10 @@ section{
         width: 120%;
         height: 100vh;
         background: url(img/bg.jpg);
+        transition: 0.5s;
+}
+.container::hover{
+    transform: scale(0.9);
 }
 
 .container #scene .layer{
