@@ -22,12 +22,7 @@ section{
         width: 120%;
         height: 100vh;
         background: url(img/bg.jpg);
-        transition: 0.5s;
 }
-.container::hover{
-    transform: scale(0.9);
-}
-
 .container #scene .layer{
     position: absolute;
     top: 0;
@@ -57,6 +52,11 @@ section{
     flex-direction: column;
     gap: 30px;
     box-shadow: rgba(0, 0, 0, 0.752) 5px 5px 20px 10px;
+    transition: transform 0.6s;
+    }
+
+    .login:hover{
+        transform: scale(1.03);
     }
 
     .login h2{
